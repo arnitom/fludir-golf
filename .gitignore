@@ -6,6 +6,9 @@
 /.idea/
 /TODO.md
 
-# Bráðabirgðaskrár sem Quarto býr til á meðan bókin er smíðuð
+# Bráðabirgðaskrár sem Quarto býr til á meðan bókin er smíðuð (vefur og PDF)
 *.html
 *_files/
+*.tex
+*.log
+*.aux
