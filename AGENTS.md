@@ -1,6 +1,6 @@
-# Leiðbeiningar fyrir gervigreind (AI-aðstoðarmenn)
+# Leiðbeiningar fyrir erindreka (gervigreind)
 
-Þetta skjal segir aðstoðarmönnum eins og Claude hvernig á að vinna í þessu verkefni.
+Þetta skjal segir erindrekum eins og Claude hvernig á að vinna í þessu verkefni.
 Það er skrifað á íslensku svo eigandinn geti lesið það og breytt því sjálfur.
 
 ## Um verkefnið
@@ -13,6 +13,7 @@ Höfundur er **Árni Tómasson**. Bókin birtist á GitHub Pages þegar breyting
 - Notandinn er **ekki mjög tæknilegur**. Útskýrðu á einföldu, skýru máli og forðastu tæknihugtök.
   Ef tæknihugtak er nauðsynlegt, útskýrðu það í stuttu máli.
 - Svaraðu á **íslensku** nema notandinn skrifi á öðru máli.
+- Gervigreindar-aðstoð kallast **erindreki** (fleirtala erindrekar), ekki „aðstoðarmaður“.
 - Segðu alltaf í lokin **hvað var gert** og **hvort notandinn þurfi að gera eitthvað**.
 - Spyrðu áður en þú gerir eitthvað sem erfitt er að afturkalla.
 - Skráðu atriði sem notandinn þarf að **taka ákvörðun um** í `TODO.md` í rót verkefnisins
