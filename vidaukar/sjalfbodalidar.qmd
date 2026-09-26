@@ -1,5 +1,5 @@
 ---
-pagetitle: "Saga golfklúbbsins | Yfirlit yfir helstu sjálfboðaliða"
+pagetitle: "Saga Selsvallar | Yfirlit yfir helstu sjálfboðaliða"
 ---
 
 # Yfirlit yfir helstu sjálfboðaliða

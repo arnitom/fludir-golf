@@ -148,6 +148,21 @@ return {
       table.insert(stilling, pandoc.AlignDefault)
       table.insert(breidd, 0)
     end
+    -- Í PDF þurfa dálkar breidd svo langur texti brotni í línur.
+    if quarto.doc.is_format("pdf") then
+      local lengd, samtals = {}, 0
+      for d = 1, #haus do
+        lengd[d] = utf8.len(haus[d]) or #haus[d]
+        for _, rod in ipairs(radir) do
+          lengd[d] = math.max(lengd[d], utf8.len(rod[d] or "") or 0)
+        end
+        lengd[d] = math.max(lengd[d], 4)
+        samtals = samtals + lengd[d]
+      end
+      for d = 1, #haus do
+        breidd[d] = lengd[d] / samtals
+      end
+    end
     local rod_reitir = {}
     for _, rod in ipairs(radir) do
       local r = {}

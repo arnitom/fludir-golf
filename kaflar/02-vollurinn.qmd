@@ -1,10 +1,38 @@
 ---
-pagetitle: "Saga golfklúbbsins | Völlurinn"
+pagetitle: "Saga Selsvallar | Völlurinn"
 ---
 
 # Völlurinn
 
 Saga vallarins frá fyrstu holu til dagsins í dag.
+
+Selsvöllur er við Efra-Sel, rétt vestan við Flúðir í Hrunamannahreppi.
+
+```{=html}
+<div id="kort-selsvollur" class="kort" role="img"
+     aria-label="Kort sem sýnir staðsetningu Selsvallar við Efra-Sel á Flúðum"
+     style="height: 380px; border-radius: 6px; margin: 1rem 0 1.5rem;"></div>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.css">
+<script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.js"></script>
+<script>
+(function () {
+  // Ef Leaflet hleðst ekki (t.d. án nets) hverfur kortið en textinn stendur.
+  if (typeof L === "undefined") {
+    document.getElementById("kort-selsvollur").remove();
+    return;
+  }
+  // Plus Code 4JRR+99 Flúðir
+  const selsvollur = [64.140937, -20.359063];
+  const kort = L.map("kort-selsvollur", { scrollWheelZoom: false }).setView(selsvollur, 13);
+  L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", {
+    maxZoom: 19,
+    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
+  }).addTo(kort);
+  L.marker(selsvollur, { title: "Selsvöllur" }).addTo(kort)
+    .bindPopup("<strong>Selsvöllur</strong><br>Efra-Sel, Flúðum").openPopup();
+})();
+</script>
+```
 
 ## Vallarframkvæmdir 2015–2021
 

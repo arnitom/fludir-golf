@@ -8,12 +8,15 @@ shortcodes:
   - _lua/gogn.lua
 
 book:
-  title: "Saga Golfklúbbsins á Flúðum"
+  title: "Saga Selsvallar"
   subtitle: "Frá upphafi til dagsins í dag"
   author: "Árni Tómasson"
   date: today
   date-format: "D. MMMM YYYY"
   favicon: myndir/merki/favicon.svg
+  sidebar:
+    logo: myndir/merki/logo.png
+    logo-alt: "Merki Golfklúbbsins Flúða"
   repo-url: https://github.com/tungufoss/fludir-golf
   repo-actions: [edit, issue]
   chapters:
@@ -24,8 +27,8 @@ book:
     - kaflar/04-felagarnir.qmd
     - kaflar/05-kaup-a-selsvelli.qmd
     - kaflar/06-rekstur.qmd
-    - kaflar/07-timalina.qmd
   appendices:
+    - vidaukar/timalina.qmd
     - vidaukar/stjorn.qmd
     - vidaukar/arferdi.qmd
     - vidaukar/arsreikningar.qmd
@@ -36,6 +39,8 @@ book:
 
 format:
   html:
-    theme: cosmo
+    theme:
+      - simplex   # grunnútlit frá Quarto
+      - gf.scss   # litir úr merkinu og stærra letur
     toc-title: "Efnisyfirlit"
     title-prefix: ""

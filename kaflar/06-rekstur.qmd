@@ -1,5 +1,5 @@
 ---
-pagetitle: "Saga golfklúbbsins | Rekstur og stjórnun"
+pagetitle: "Saga Selsvallar | Rekstur og stjórnun"
 ---
 
 # Rekstur og stjórnun
@@ -75,3 +75,7 @@ Nefndin hefur hafið leit að fjárfestum og skilgreint helstu markmið í því
 ## Að lokum
 
 Hér að framan hefur verið getið þess helsta í starfsemi Golfklúbbsins Flúðir á árunum 2015 til 2025. Gríðarlegar breytingar hafa átt sér stað á þessu tímabili og klúbburinn sem og völlurinn og starfsemin öll tekið miklum stakkaskiptum. Þetta hefði ekki verið gerlegt nema með mikilli samstöðu og ótúlegri fórnfýsi fjölmargra félagsmanna. Fyrir þetta vil ég þakka af heilum hug og leyfa mér að vona að framtíðin færi okkur fjölmargar ánægjustundir á þessum sælureit sem Selsvöllur er.
+
+::: {.text-end}
+Árni Tómasson, september 2026
+:::

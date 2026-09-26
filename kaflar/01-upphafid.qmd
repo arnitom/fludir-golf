@@ -1,12 +1,10 @@
 ---
-pagetitle: "Saga golfklúbbsins | Upphafið"
+pagetitle: "Saga Selsvallar | Upphafið"
 ---
 
 # Upphafið
 
 ## Inngangur
-
-![](../myndir/merki/logo.svg){.d-block .mx-auto width="320px" fig-alt="Merki Golfklúbbsins Flúða"}
 
 Árni Tómasson formaður GF 2015 til 2025 hefur tekið saman yfirlit um starfsemi klúbbsins á þessum 10 árum. Mótaðist starfsemin annars vegar af samningi sem gerður var milli vallareigenda og GF í upphafi tímabilsins og hins vegar eftir að Selsvöllur komst í eigu GF árið 2022.
 

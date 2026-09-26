@@ -1,5 +1,5 @@
 ---
-pagetitle: "Saga golfklúbbsins | Félagarnir"
+pagetitle: "Saga Selsvallar | Félagarnir"
 ---
 
 # Félagarnir

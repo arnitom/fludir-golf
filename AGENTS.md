@@ -49,7 +49,7 @@ Nýr kafli þarf líka að fara í listann `chapters` í `_quarto.yml`, og efst 
 
 ```
 ---
-pagetitle: "Saga golfklúbbsins | Heiti kaflans"
+pagetitle: "Saga Selsvallar | Heiti kaflans"
 ---
 ```
 

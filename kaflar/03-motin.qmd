@@ -1,5 +1,5 @@
 ---
-pagetitle: "Saga golfklúbbsins | Mótin"
+pagetitle: "Saga Selsvallar | Mótin"
 ---
 
 # Mótin
