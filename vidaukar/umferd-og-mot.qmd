@@ -4,7 +4,4 @@ Texti kemur hér.
 
 ## Klúbbmeistarar
 
-| Ár   | Karlar | Konur |
-|------|--------|-------|
-| 20XX | Nafn   | Nafn  |
-| 20XX | Nafn   | Nafn  |
+{{< csv-tafla gogn/klubbmeistarar.csv >}}

@@ -2,18 +2,4 @@
 
 Helstu atburðir í stuttu máli.
 
-| Ár   | Atburður                                                                 |
-|------|--------------------------------------------------------------------------|
-| 1985 | Golfklúbburinn Flúðir stofnaður og uppbygging Selsvallar hefst           |
-| 2001 | Völlurinn stækkaður í 18 holur                                           |
-| 2010 | Afmælisrit um fyrstu 25 árin gefið út                                    |
-| 2012 | Leigulandi meðfram Litlu-Laxá sagt upp; 15.–17. braut breytt             |
-| 2015 | Samningur GF og vallareigenda undirritaður 24. febrúar                   |
-| 2015 | Framræsing hefst á 4., 10. og 18. braut; stígagerð með gerfiefni hefst   |
-| 2016 | Stuðlabergssteinar settir við teiga; samkomulag við Golfklúbb Ásatúns    |
-| 2017 | Vélar og tæki Ásatúnsvallar keypt                                        |
-| 2021 | Vallareigendur tilkynna sölu; Golf-Sel ehf. stofnað; samkomulag um kaup 28. desember |
-| 2022 | Kaup á Selsvelli undirrituð 1. apríl; Daníel Halldórsson ráðinn vallarstjóri |
-| 2023 | Nýtt æfingaskýli byggt; ný 9. braut opnuð                                |
-| 2024 | Makaskiptasamningur við Hrunamannahrepp undirritaður 13. júní            |
-| 2025 | Nýjar brautir 15, 16 og 17 opnaðar; nýtt skipulag fyrir hótel samþykkt   |
+{{< csv-tafla gogn/timalina.csv >}}

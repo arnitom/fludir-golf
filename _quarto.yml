@@ -4,6 +4,9 @@ project:
 
 lang: is
 
+shortcodes:
+  - _lua/csv-tafla.lua
+
 book:
   title: "Saga Golfklúbbsins á Flúðum"
   subtitle: "Frá upphafi til dagsins í dag"

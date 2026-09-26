@@ -35,6 +35,8 @@ _quarto.yml          Titill, höfundur og röð kafla (listinn `chapters`)
 index.qmd            Formáli
 kaflar/NN-heiti.qmd  Einn kafli í hverju skjali
 vidaukar/heiti.qmd   Viðaukar (listinn `appendices` í `_quarto.yml`)
+gogn/heiti.csv       Töflur sem uppfærast reglulega og langir listar
+_lua/csv-tafla.lua   Les CSV-skrá inn sem töflu: {{< csv-tafla gogn/heiti.csv >}}
 myndir/              Myndir (minnkaðar, sjá að neðan)
 minnka-myndir.py     Minnkar myndir
 requirements.txt     Python-pakkar (bara Pillow)
@@ -45,6 +47,11 @@ Nýr kafli þarf líka að fara í listann `chapters` í `_quarto.yml`.
 **Viðaukar:** listar, töflur og nafnaskrár eiga heima í viðaukum, ekki í köflunum,
 svo kaflarnir haldist hreinir. Á vef eru engar blaðsíður, svo í stað „sjá viðauka á bls. 36“
 er tengill á rétta síðu: `[viðauka](../vidaukar/stjorn.qmd)`.
+
+**Töflur (ákvörðun eiganda):** litlar töflur eru skrifaðar beint í `.qmd`. CSV í `gogn/` er
+aðeins notað þegar ljóst er að taflan verði uppfærð reglulega (t.d. á hverju ári) eða hún er stór
+(t.d. 165 nöfn). CSV-skrár eru UTF-8 með semíkommu sem skilum, eins og Excel á íslensku.
+Ekki bæta R eða Python við birtinguna fyrir töflur; `_lua/csv-tafla.lua` sér um það.
 
 ## Texti höfundar
 

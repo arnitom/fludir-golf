@@ -29,6 +29,25 @@ python minnka-myndir.py
 
 Fyrst þarf einu sinni að setja upp Pillow: `pip install -r requirements.txt`. Geymdu frumritin í fullri upplausn annars staðar, ekki í þessari möppu.
 
+## Töflur sem uppfærast reglulega (CSV)
+
+Töflur sem stækka á hverju ári, og langir listar, eru geymdar sem CSV-skrár í möppunni `gogn/`:
+
+| Skrá | Hvar í bókinni |
+|------|----------------|
+| `gogn/timalina.csv` | Tímalína |
+| `gogn/klubbmeistarar.csv` | Viðauki um umferð, mót og klúbbmeistara |
+| `gogn/fjarfestingar.csv` | Viðauki um ársreikninga og fjárfestingar |
+| `gogn/kaupendur.csv` | Viðauki um þá sem lögðu fé í kaup á Selsvelli |
+
+**Svona uppfærir þú töflu:** opnaðu CSV-skrána í Excel, bættu við línu og vistaðu með
+**Vista sem > „CSV UTF-8“** (annars skemmast íslensku stafirnir). Fyrsta línan er fyrirsögn töflunnar.
+Einnig er hægt að breyta skránni beint á GitHub.
+
+Í texta er CSV-tafla sett inn svona: `{{< csv-tafla gogn/heiti.csv >}}`
+
+Litlar töflur sem breytast sjaldan eru skrifaðar beint í textann.
+
 ## Skoða bókina á eigin tölvu
 
 ```
