@@ -1,4 +1,4 @@
-"""Einfaldar skipanir fyrir bókina (líka hægt að nota make, sjá Makefile).
+"""Einfaldar skipanir fyrir bókina.
 
   python bok.py install  Setja upp allt sem þarf (einu sinni á nýrri tölvu)
   python bok.py view     Skoða bókina í vafra; uppfærist þegar skrár eru vistaðar
@@ -52,7 +52,7 @@ def install():
             if gildi:
                 keyra("git", "config", "--global", stilling, gildi)
 
-    print("\nAllt tilbúið. Skoðaðu bókina með:  python bok.py view   (eða make view)")
+    print("\nAllt tilbúið. Skoðaðu bókina með:  python bok.py view")
 
 
 def minnka():
