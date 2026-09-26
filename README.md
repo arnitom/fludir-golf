@@ -6,19 +6,48 @@ Bókin er skrifuð í [Quarto](https://quarto.org) og birtist sjálfkrafa á
 - **Höfundur texta:** Árni Tómasson
 - **Tæknileg uppsetning:** Helga Ingimundardóttir ([@tungufoss](https://github.com/tungufoss))
 
+## Uppsetning á nýrri tölvu (Windows)
+
+**1. Sæktu og settu upp þessi fjögur forrit:**
+
+- [Git](https://git-scm.com/install/windows)
+- [Quarto](https://quarto.org/docs/download/)
+- [VS Code](https://apps.microsoft.com/detail/xp9khm4bk9fz7q) (Microsoft Store)
+- [Python](https://apps.microsoft.com/detail/9pnrbtzxmb4z) (Microsoft Store)
+
+**2. Endurræstu tölvuna.**
+
+**3. Opnaðu VS Code** og settu upp viðbótina **Quarto** (Extensions, vinstra megin).
+
+**4. Opnaðu skipanalínu í VS Code** (Terminal > New Terminal) og keyrðu:
+
+```
+git clone https://github.com/arnitom/fludir-golf.git
+cd fludir-golf
+pip install -r requirements.txt
+quarto preview --to html
+```
+
+Bókin opnast í vafra. Í fyrsta sinn sem þú sendir breytingar á GitHub biður Git þig að skrá þig inn í vafra.
+
 ## Uppbygging
 
 ```
-_quarto.yml        Stillingar: titill, höfundur og röð kafla
+_quarto.yml        Stillingar: titill, höfundur og röð kafla og viðauka
 index.qmd          Formáli (fyrsta síðan)
-kaflar/            Einn skjal fyrir hvern kafla
-myndir/            Allar myndir
+kaflar/            Eitt skjal fyrir hvern kafla
+vidaukar/          Eitt skjal fyrir hvern viðauka
+gogn/              CSV-töflur sem uppfærast reglulega
+myndir/            Allar myndir; merki klúbbsins í myndir/merki/
+gf.scss            Litir og letur (útlit vefsins)
+_lua/              Lítil forrit sem lesa CSV-töflur o.fl. (þarf sjaldan að snerta)
 ```
 
 ## Hvernig bæti ég við efni?
 
 - **Breyta kafla:** opnaðu skjal í `kaflar/` og skrifaðu. Hægt er að gera það beint á GitHub (blýantstáknið).
-- **Nýr kafli:** búðu til nýtt skjal í `kaflar/`, t.d. `06-nyr-kafli.qmd`, og bættu því í listann `chapters` í `_quarto.yml`.
+- **Nýr kafli:** búðu til nýtt skjal í `kaflar/`, t.d. `07-nyr-kafli.qmd`, og bættu því í listann `chapters` í `_quarto.yml`.
+  Efst í skjalið fer titill vafraflipans: `pagetitle: "Saga Selsvallar | Heiti kaflans"` (milli `---` lína, sjá hina kaflana).
 - **Mynd:** settu myndina í `myndir/` og vísaðu í hana svona: `![Myndatexti](../myndir/mynd.jpg)`
 
 ## Myndir: minnka áður en þær eru vistaðar
