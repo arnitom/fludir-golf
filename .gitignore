@@ -3,3 +3,5 @@
 
 **/*.quarto_ipynb
 *.odt
+/.idea/
+/TODO.md

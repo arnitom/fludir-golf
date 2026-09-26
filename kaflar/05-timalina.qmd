@@ -1,8 +1,0 @@
-# Tímalína
-
-Helstu atburðir í stuttu máli.
-
-| Ár   | Atburður                  |
-|------|---------------------------|
-| 19XX | Klúbburinn stofnaður      |
-| 19XX | Fyrstu holurnar opnaðar   |

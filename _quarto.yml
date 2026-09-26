@@ -7,7 +7,7 @@ lang: is
 book:
   title: "Saga Golfklúbbsins á Flúðum"
   subtitle: "Frá upphafi til dagsins í dag"
-  author: "Ritnefnd"
+  author: "Árni Tómasson"
   date: today
   date-format: "D. MMMM YYYY"
   repo-url: https://github.com/tungufoss/fludir-golf
@@ -18,7 +18,9 @@ book:
     - kaflar/02-vollurinn.qmd
     - kaflar/03-motin.qmd
     - kaflar/04-felagarnir.qmd
-    - kaflar/05-timalina.qmd
+    - kaflar/05-kaup-a-selsvelli.qmd
+    - kaflar/06-rekstur.qmd
+    - kaflar/07-timalina.qmd
 
 format:
   html:
