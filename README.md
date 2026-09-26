@@ -46,8 +46,7 @@ Keyrðu þær í skipanalínunni í VS Code, í möppunni `fludir-golf`:
 `push` sendir texta (`.qmd`), myndir og CSV-gögn. Ef bókin smíðast ekki er ekkert sent.
 Í fyrsta sinn sem þú sendir biður Git þig að skrá þig inn á GitHub í vafra.
 
-Það þarf **ekki** að sækja `make`. Þeir sem hafa það þegar geta skrifað `make view`,
-`make push`, `make` og `make install` í staðinn; það gerir nákvæmlega það sama.
+Þetta verkefni notar aðeins Python-skipanirnar hér að ofan. `make` er ekki nauðsynlegt og er ekki notað í verkefninu.
 
 ## Uppbygging
 
@@ -60,7 +59,7 @@ gogn/              CSV-töflur sem uppfærast reglulega
 myndir/            Allar myndir; merki klúbbsins í myndir/merki/
 gf.scss            Litir og letur (útlit vefsins)
 _lua/              Lítil forrit sem lesa CSV-töflur o.fl. (þarf sjaldan að snerta)
-bok.py, Makefile   Daglegu skipanirnar (install, view, render, push)
+bok.py             Daglegu skipanirnar (install, view, render, push)
 ```
 
 ## Hvernig bæti ég við efni?
