@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 250" width="600" height="250" role="img" aria-label="Golfklúbburinn Flúðir">
+  <title>Golfklúbburinn Flúðir</title>
+  <defs>
+    <linearGradient id="sol" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ED1C24"/>
+      <stop offset="1" stop-color="#C1161C"/>
+    </linearGradient>
+    <mask id="flagg">
+      <rect width="600" height="250" fill="#fff"/>
+      <!-- Flaggstöng -->
+      <rect x="319" y="44" width="6" height="110" fill="#000"/>
+      <!-- Flagg -->
+      <path d="M325,45 C338,41 348,52 368,46 L354,58 L362,70 C347,74 337,64 325,69 Z" fill="#000"/>
+    </mask>
+  </defs>
+
+  <!-- Rauð sól með hól að neðan -->
+  <path mask="url(#flagg)" fill="url(#sol)"
+        d="M188,165 A118,118 0 1 1 416,150 Q320,110 188,165 Z"/>
+
+  <!-- Texti -->
+  <text x="300" y="228" text-anchor="middle"
+        font-family="'Fira Sans Condensed','Roboto Condensed','Arial Narrow',sans-serif"
+        font-weight="700" font-size="64" fill="#1a1a1a"
+        textLength="570" lengthAdjust="spacingAndGlyphs">Golfklúbburinn Flúðir</text>
+</svg>
