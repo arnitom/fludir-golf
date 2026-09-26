@@ -1,7 +1,10 @@
-# Saga Golfklúbbsins á Flúðum
+# Saga Selsvallar
 
 Bókin er skrifuð í [Quarto](https://quarto.org) og birtist sjálfkrafa á
 **https://tungufoss.github.io/fludir-golf/** í hvert sinn sem breyting er sett á `main`.
+
+- **Höfundur texta:** Árni Tómasson
+- **Tæknileg uppsetning:** Helga Ingimundardóttir ([@tungufoss](https://github.com/tungufoss))
 
 ## Uppbygging
 
