@@ -73,6 +73,11 @@ aðeins notað þegar ljóst er að taflan verði uppfærð reglulega (t.d. á h
 (t.d. 165 nöfn). CSV-skrár eru UTF-8 með semíkommu sem skilum, eins og Excel á íslensku.
 Ekki bæta R eða Python við birtinguna fyrir töflur; `_lua/gogn.lua` sér um það.
 
+**Möppunöfn geta innihaldið íslenska stafi** (t.d. `C:\Users\Árni\...`). Í Lua-forritum skal
+aldrei lesa skrár með `io.open` eða búa til slóðir úr `quarto.project.directory`; það brotnar
+á Windows með villunni „cannot encode character“. Notaðu `quarto.utils.resolve_path` og
+`pandoc.mediabag.fetch`, eins og `_lua/gogn.lua` gerir.
+
 **Tímalínan** er gagnvirkt Plotly-graf (hlaðið af CDN, aðeins á þeirri síðu) með töflu fyrir neðan.
 Flokkarnir eru þrír (Félagið, Völlurinn, Samningar) því litapallettan er prófuð fyrir þrjá liti
 og litblinda. Ekki bæta við fjórða flokki; sameinaðu frekar. Litur fylgir flokki, ekki röð.

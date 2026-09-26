@@ -15,6 +15,8 @@ Bókin er skrifuð í [Quarto](https://quarto.org) og birtist sjálfkrafa á
 - [VS Code](https://apps.microsoft.com/detail/xp9khm4bk9fz7q) (Microsoft Store)
 - [Python](https://apps.microsoft.com/detail/9pnrbtzxmb4z) (Microsoft Store)
 
+Annað þarf ekki: hvorki R, Jupyter né LaTeX. Quarto inniheldur allt sem þarf til að smíða vefinn.
+
 **2. Endurræstu tölvuna.**
 
 **3. Opnaðu VS Code** og settu upp viðbótina **Quarto** (Extensions, vinstra megin).

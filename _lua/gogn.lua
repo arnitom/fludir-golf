@@ -34,12 +34,13 @@ end
 -- Skilar fyrirsögn og röðum CSV-skrár.
 local function lesa_csv(args)
   local slod = pandoc.utils.stringify(args[1])
-  local skra = io.open(pandoc.path.join({ quarto.project.directory, slod }), "rb")
-  if not skra then
+  -- Slóðin er miðuð við rót verkefnisins, sem er einni möppu ofan við þessa skrá (_lua/).
+  -- pandoc.mediabag.fetch les skrána og ræður við íslenska stafi í möppunöfnum,
+  -- ólíkt io.open á Windows.
+  local ok, _, texti = pcall(pandoc.mediabag.fetch, quarto.utils.resolve_path("../" .. slod))
+  if not ok or not texti then
     error("Fann ekki CSV-skrána: " .. slod)
   end
-  local texti = skra:read("a")
-  skra:close()
 
   if not utf8.len(texti) then
     error(slod .. " er ekki vistuð sem UTF-8. Í Excel: Vista sem > 'CSV UTF-8'.")
