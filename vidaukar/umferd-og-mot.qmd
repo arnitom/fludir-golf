@@ -1,0 +1,10 @@
+# Umferð um völlinn, þátttaka í mótum og klúbbmeistarar 2015–2025
+
+Texti kemur hér.
+
+## Klúbbmeistarar
+
+| Ár   | Karlar | Konur |
+|------|--------|-------|
+| 20XX | Nafn   | Nafn  |
+| 20XX | Nafn   | Nafn  |

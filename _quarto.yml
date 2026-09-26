@@ -21,6 +21,14 @@ book:
     - kaflar/05-kaup-a-selsvelli.qmd
     - kaflar/06-rekstur.qmd
     - kaflar/07-timalina.qmd
+  appendices:
+    - vidaukar/stjorn.qmd
+    - vidaukar/arferdi.qmd
+    - vidaukar/arsreikningar.qmd
+    - vidaukar/umferd-og-mot.qmd
+    - vidaukar/sjalfbodalidar.qmd
+    - vidaukar/bakhjarlar.qmd
+    - vidaukar/kaupendur.qmd
 
 format:
   html:

@@ -34,12 +34,17 @@ Höfundur er **Árni Tómasson**. Bókin birtist á GitHub Pages þegar breyting
 _quarto.yml          Titill, höfundur og röð kafla (listinn `chapters`)
 index.qmd            Formáli
 kaflar/NN-heiti.qmd  Einn kafli í hverju skjali
+vidaukar/heiti.qmd   Viðaukar (listinn `appendices` í `_quarto.yml`)
 myndir/              Myndir (minnkaðar, sjá að neðan)
 minnka-myndir.py     Minnkar myndir
 requirements.txt     Python-pakkar (bara Pillow)
 ```
 
 Nýr kafli þarf líka að fara í listann `chapters` í `_quarto.yml`.
+
+**Viðaukar:** listar, töflur og nafnaskrár eiga heima í viðaukum, ekki í köflunum,
+svo kaflarnir haldist hreinir. Á vef eru engar blaðsíður, svo í stað „sjá viðauka á bls. 36“
+er tengill á rétta síðu: `[viðauka](../vidaukar/stjorn.qmd)`.
 
 ## Texti höfundar
 
@@ -64,5 +69,9 @@ Nýr kafli þarf líka að fara í listann `chapters` í `_quarto.yml`.
 - Keyrðu `quarto preview --port 4200 --no-browser`. Bókin er þá á http://localhost:4200/
 - Athugaðu fyrst hvort þjónn sé þegar í gangi og stöðvaðu hann ef svo er.
 - Ekki stöðva þjóninn í miðri keyrslu, það getur skemmt skyndiminni Quarto.
+- **Stöðvaðu þjóninn áður en mörgum skrám er breytt í einu** (t.d. með skriftu) og ræstu hann
+  aftur á eftir. Annars reynir hann að smíða margar síður samtímis og skyndiminnið skemmist.
+- Ef breyting sést ekki í forskoðun (ritillinn vistar stundum í gegnum WSL og þjónninn
+  tekur ekki eftir því): endurræstu þjóninn.
 - Villan **„Bad resource ID“** þýðir skemmt skyndiminni: stöðvaðu þjóninn, eyddu
   `.quarto/`, `_book/` og `%LOCALAPPDATA%\quarto\sass` og ræstu hann aftur.
