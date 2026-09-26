@@ -37,6 +37,9 @@ https://arnitom.github.io/fludir-golf/ þegar breytingar fara á `main`.
   - Fyrsta lína: stutt fyrirsögn sem segir hvað var gert, t.d. `Bæta við kafla um mótin`.
   - Síðan auð lína og nokkrar setningar um **hvað** breyttist og **af hverju**.
 - Gerðu commit eftir hvert afmarkað verk, ekki allt í einum hrærigraut.
+- Eigandinn og Árni nota `python bok.py push` (eða `make push`), sem gerir sjálfvirkt commit
+  („Sjálfvirkt commit frá …“) á `.qmd`, myndum og CSV. Erindrekar gera sín eigin commit með
+  lýsandi skilaboðum eins og að ofan.
 - **Aldrei `git push` nema notandinn biðji um það.** Push á `main` birtir vefinn opinberlega.
 - Ekki setja þetta í git: `.odt` handrit, `_book/`, `.quarto/`, `.idea/`.
 
@@ -52,6 +55,7 @@ _lua/gogn.lua        Les CSV inn: {{< csv-tafla gogn/heiti.csv >}} og {{< timali
 myndir/              Myndir (minnkaðar, sjá að neðan)
 myndir/merki/        Merki klúbbsins (logo.svg) og tákn á vafraflipa (favicon.svg)
 minnka-myndir.py     Minnkar myndir
+bok.py, Makefile     Einfaldar skipanir: install, view, render, push (sjá README)
 requirements.txt     Python-pakkar (bara Pillow)
 ```
 
