@@ -2,4 +2,8 @@
 
 Helstu atburðir í stuttu máli.
 
+{{< timalina gogn/timalina.csv >}}
+
+## Allir atburðir
+
 {{< csv-tafla gogn/timalina.csv >}}

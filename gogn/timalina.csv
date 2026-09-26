@@ -1,14 +1,22 @@
-Ár;Atburður
-1985;Golfklúbburinn Flúðir stofnaður og uppbygging Selsvallar hefst
-2001;Völlurinn stækkaður í 18 holur
-2010;Afmælisrit um fyrstu 25 árin gefið út
-2012;"Leigulandi meðfram Litlu-Laxá sagt upp; 15.–17. braut breytt"
-2015;Samningur GF og vallareigenda undirritaður 24. febrúar
-2015;"Framræsing hefst á 4., 10. og 18. braut; stígagerð með gerfiefni hefst"
-2016;"Stuðlabergssteinar settir við teiga; samkomulag við Golfklúbb Ásatúns"
-2017;Vélar og tæki Ásatúnsvallar keypt
-2021;"Vallareigendur tilkynna sölu; Golf-Sel ehf. stofnað; samkomulag um kaup 28. desember"
-2022;"Kaup á Selsvelli undirrituð 1. apríl; Daníel Halldórsson ráðinn vallarstjóri"
-2023;"Nýtt æfingaskýli byggt; ný 9. braut opnuð"
-2024;Makaskiptasamningur við Hrunamannahrepp undirritaður 13. júní
-2025;"Nýjar brautir 15, 16 og 17 opnaðar; nýtt skipulag fyrir hótel samþykkt"
+Ár;Flokkur;Atburður
+1985;Félagið;Golfklúbburinn Flúðir stofnaður og uppbygging Selsvallar hefst
+2001;Völlurinn;Völlurinn stækkaður í 18 holur
+2010;Félagið;Afmælisrit um fyrstu 25 árin gefið út
+2012;Samningar;Leigulandi meðfram Litlu-Laxá sagt upp
+2012;Völlurinn;15.–17. braut breytt
+2015;Samningar;Samningur GF og vallareigenda undirritaður 24. febrúar
+2015;Völlurinn;Framræsing hefst á 4., 10. og 18. braut
+2015;Völlurinn;Stígagerð með gerfiefni hefst
+2016;Völlurinn;Stuðlabergssteinar settir við teiga
+2016;Samningar;Samkomulag við Golfklúbb Ásatúns
+2017;Völlurinn;Vélar og tæki Ásatúnsvallar keypt
+2021;Samningar;Vallareigendur tilkynna sölu
+2021;Félagið;Golf-Sel ehf. stofnað
+2021;Samningar;Samkomulag um kaup undirritað 28. desember
+2022;Samningar;Kaup á Selsvelli undirrituð 1. apríl
+2022;Félagið;Daníel Halldórsson ráðinn vallarstjóri
+2023;Völlurinn;Nýtt æfingaskýli byggt
+2023;Völlurinn;Ný 9. braut opnuð
+2024;Samningar;Makaskiptasamningur við Hrunamannahrepp undirritaður 13. júní
+2025;Völlurinn;Nýjar brautir 15, 16 og 17 opnaðar
+2025;Samningar;Nýtt skipulag fyrir hótel samþykkt

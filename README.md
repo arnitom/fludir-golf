@@ -35,7 +35,7 @@ Töflur sem stækka á hverju ári, og langir listar, eru geymdar sem CSV-skrár
 
 | Skrá | Hvar í bókinni |
 |------|----------------|
-| `gogn/timalina.csv` | Tímalína |
+| `gogn/timalina.csv` | Tímalína (gagnvirkt graf og tafla) |
 | `gogn/klubbmeistarar.csv` | Viðauki um umferð, mót og klúbbmeistara |
 | `gogn/fjarfestingar.csv` | Viðauki um ársreikninga og fjárfestingar |
 | `gogn/kaupendur.csv` | Viðauki um þá sem lögðu fé í kaup á Selsvelli |
@@ -43,6 +43,9 @@ Töflur sem stækka á hverju ári, og langir listar, eru geymdar sem CSV-skrár
 **Svona uppfærir þú töflu:** opnaðu CSV-skrána í Excel, bættu við línu og vistaðu með
 **Vista sem > „CSV UTF-8“** (annars skemmast íslensku stafirnir). Fyrsta línan er fyrirsögn töflunnar.
 Einnig er hægt að breyta skránni beint á GitHub.
+
+**Tímalínan** hefur þrjá dálka: `Ár;Flokkur;Atburður`. Flokkarnir eru **Félagið**, **Völlurinn**
+og **Samningar** og hver þeirra hefur sinn lit í grafinu. Notaðu bara þessa þrjá flokka.
 
 Í texta er CSV-tafla sett inn svona: `{{< csv-tafla gogn/heiti.csv >}}`
 

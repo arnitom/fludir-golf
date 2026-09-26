@@ -36,7 +36,7 @@ index.qmd            Formáli
 kaflar/NN-heiti.qmd  Einn kafli í hverju skjali
 vidaukar/heiti.qmd   Viðaukar (listinn `appendices` í `_quarto.yml`)
 gogn/heiti.csv       Töflur sem uppfærast reglulega og langir listar
-_lua/csv-tafla.lua   Les CSV-skrá inn sem töflu: {{< csv-tafla gogn/heiti.csv >}}
+_lua/gogn.lua        Les CSV inn: {{< csv-tafla gogn/heiti.csv >}} og {{< timalina gogn/timalina.csv >}}
 myndir/              Myndir (minnkaðar, sjá að neðan)
 minnka-myndir.py     Minnkar myndir
 requirements.txt     Python-pakkar (bara Pillow)
@@ -51,7 +51,11 @@ er tengill á rétta síðu: `[viðauka](../vidaukar/stjorn.qmd)`.
 **Töflur (ákvörðun eiganda):** litlar töflur eru skrifaðar beint í `.qmd`. CSV í `gogn/` er
 aðeins notað þegar ljóst er að taflan verði uppfærð reglulega (t.d. á hverju ári) eða hún er stór
 (t.d. 165 nöfn). CSV-skrár eru UTF-8 með semíkommu sem skilum, eins og Excel á íslensku.
-Ekki bæta R eða Python við birtinguna fyrir töflur; `_lua/csv-tafla.lua` sér um það.
+Ekki bæta R eða Python við birtinguna fyrir töflur; `_lua/gogn.lua` sér um það.
+
+**Tímalínan** er gagnvirkt Plotly-graf (hlaðið af CDN, aðeins á þeirri síðu) með töflu fyrir neðan.
+Flokkarnir eru þrír (Félagið, Völlurinn, Samningar) því litapallettan er prófuð fyrir þrjá liti
+og litblinda. Ekki bæta við fjórða flokki; sameinaðu frekar. Litur fylgir flokki, ekki röð.
 
 ## Texti höfundar
 

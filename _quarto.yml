@@ -5,7 +5,7 @@ project:
 lang: is
 
 shortcodes:
-  - _lua/csv-tafla.lua
+  - _lua/gogn.lua
 
 book:
   title: "Saga Golfklúbbsins á Flúðum"
