@@ -38,11 +38,19 @@ vidaukar/heiti.qmd   Viðaukar (listinn `appendices` í `_quarto.yml`)
 gogn/heiti.csv       Töflur sem uppfærast reglulega og langir listar
 _lua/gogn.lua        Les CSV inn: {{< csv-tafla gogn/heiti.csv >}} og {{< timalina gogn/timalina.csv >}}
 myndir/              Myndir (minnkaðar, sjá að neðan)
+myndir/merki/        Merki klúbbsins (logo.svg) og tákn á vafraflipa (favicon.svg)
 minnka-myndir.py     Minnkar myndir
 requirements.txt     Python-pakkar (bara Pillow)
 ```
 
-Nýr kafli þarf líka að fara í listann `chapters` í `_quarto.yml`.
+Nýr kafli þarf líka að fara í listann `chapters` í `_quarto.yml`, og efst í hann titill
+á vafraflipa (án kaflanúmers):
+
+```
+---
+pagetitle: "Saga golfklúbbsins | Heiti kaflans"
+---
+```
 
 **Viðaukar:** listar, töflur og nafnaskrár eiga heima í viðaukum, ekki í köflunum,
 svo kaflarnir haldist hreinir. Á vef eru engar blaðsíður, svo í stað „sjá viðauka á bls. 36“
@@ -61,6 +69,8 @@ og litblinda. Ekki bæta við fjórða flokki; sameinaðu frekar. Litur fylgir f
 
 - Ekki breyta orðalagi höfundar nema beðið sé um það. Leiðréttingar á augljósum
   innsláttarvillum eru í lagi ef notandinn samþykkir.
+- Texti úr Word/LibreOffice (`.docx`/`.odt`) inniheldur oft **ósýnileg mjúk bandstrik**
+  (U+00AD, birtast sem „SHY“ í ritli). Fjarlægðu þau og aðra ósýnilega stafi þegar texti er fluttur inn.
 - Staðir merktir `xx` eða `Xx` eru óklárir í handritinu. Láttu þá vera en bentu á þá.
 - **Kennitölur einstaklinga eru aldrei birtar** í bókinni og mega aldrei fara í git-söguna
   (ákvörðun eiganda). Kennitölur félaga, t.d. Kaffi-Sels ehf., eru í lagi.

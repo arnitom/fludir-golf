@@ -13,7 +13,7 @@ book:
   author: "Árni Tómasson"
   date: today
   date-format: "D. MMMM YYYY"
-  favicon: myndir/favicon.svg
+  favicon: myndir/merki/favicon.svg
   repo-url: https://github.com/tungufoss/fludir-golf
   repo-actions: [edit, issue]
   chapters:
@@ -38,3 +38,4 @@ format:
   html:
     theme: cosmo
     toc-title: "Efnisyfirlit"
+    title-prefix: ""

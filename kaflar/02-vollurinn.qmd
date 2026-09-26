@@ -1,3 +1,7 @@
+---
+pagetitle: "Saga golfklúbbsins | Völlurinn"
+---
+
 # Völlurinn
 
 Saga vallarins frá fyrstu holu til dagsins í dag.

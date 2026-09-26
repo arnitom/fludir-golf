@@ -1,3 +1,7 @@
+---
+pagetitle: "Saga golfklúbbsins | Ársreikningar GF og fjárfestingar 2014–2025"
+---
+
 # Ársreikningar GF og fjárfestingar 2014–2025
 
 Ársreikningar klúbbsins og fjárfestingar á hverju ári. Texti kemur hér.

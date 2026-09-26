@@ -1,3 +1,7 @@
+---
+pagetitle: "Saga golfklúbbsins | Tímalína"
+---
+
 # Tímalína
 
 Helstu atburðir í stuttu máli.

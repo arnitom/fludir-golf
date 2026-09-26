@@ -1,3 +1,7 @@
+---
+pagetitle: "Saga golfklúbbsins | Yfirlit yfir helstu sjálfboðaliða"
+---
+
 # Yfirlit yfir helstu sjálfboðaliða
 
 Hér vil ég nefna nokkra af hörðustu sjálfboðaliðunum í verklegum framkvæmdum:
