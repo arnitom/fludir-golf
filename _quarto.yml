@@ -1,0 +1,26 @@
+project:
+  type: book
+  output-dir: _book
+
+lang: is
+
+book:
+  title: "Saga Golfklúbbsins á Flúðum"
+  subtitle: "Frá upphafi til dagsins í dag"
+  author: "Ritnefnd"
+  date: today
+  date-format: "D. MMMM YYYY"
+  repo-url: https://github.com/tungufoss/fludir-golf
+  repo-actions: [edit, issue]
+  chapters:
+    - index.qmd
+    - kaflar/01-upphafid.qmd
+    - kaflar/02-vollurinn.qmd
+    - kaflar/03-motin.qmd
+    - kaflar/04-felagarnir.qmd
+    - kaflar/05-timalina.qmd
+
+format:
+  html:
+    theme: cosmo
+    toc-title: "Efnisyfirlit"

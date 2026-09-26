@@ -1,0 +1,10 @@
+# Mótin
+
+Helstu mót klúbbsins og eftirminnilegir viðburðir.
+
+## Meistaramót
+
+| Ár   | Karlar | Konur |
+|------|--------|-------|
+| 20XX | Nafn   | Nafn  |
+| 20XX | Nafn   | Nafn  |

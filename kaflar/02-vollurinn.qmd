@@ -1,0 +1,13 @@
+# Völlurinn
+
+Saga vallarins frá fyrstu holu til dagsins í dag.
+
+## Uppbygging
+
+Texti kemur hér.
+
+<!--
+Svona er mynd sett inn (settu myndina í möppuna myndir/):
+
+![Myndatexti hér](../myndir/vollurinn.jpg)
+-->

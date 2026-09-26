@@ -1,0 +1,13 @@
+# Félagarnir
+
+Fólkið á bak við klúbbinn.
+
+## Formenn
+
+| Tímabil     | Formaður |
+|-------------|----------|
+| 19XX–19XX   | Nafn     |
+
+## Heiðursfélagar
+
+Texti kemur hér.
