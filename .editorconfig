@@ -1,0 +1,12 @@
+# Stillingar fyrir ritla (t.d. JetBrains/PyCharm, VS Code): allar skrár vistaðar eins.
+root = true
+
+[*]
+charset = utf-8
+end_of_line = lf
+insert_final_newline = true
+trim_trailing_whitespace = true
+
+# Í Markdown þýða tvö bil í lok línu línuskil, svo þau eru ekki fjarlægð.
+[*.{md,qmd}]
+trim_trailing_whitespace = false

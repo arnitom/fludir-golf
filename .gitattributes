@@ -1,0 +1,7 @@
+# Git geymir allar textaskrár með LF-línuskilum, óháð stýrikerfi.
+* text=auto eol=lf
+
+*.jpg binary
+*.jpeg binary
+*.png binary
+*.odt binary
