@@ -5,8 +5,19 @@
 
 ## Um verkefnið
 
-Bók um sögu Golfklúbbsins Flúða (GF), skrifuð í [Quarto](https://quarto.org).
-Höfundur er **Árni Tómasson**. Bókin birtist á GitHub Pages þegar breytingar fara á `main` á GitHub.
+„Saga Selsvallar“: bók um sögu Golfklúbbsins Flúða (GF), skrifuð í [Quarto](https://quarto.org).
+Höfundur er **Árni Tómasson**. Geymd á GitHub í `arnitom/fludir-golf` og birtist á
+https://arnitom.github.io/fludir-golf/ þegar breytingar fara á `main`.
+
+## PDF-útgáfa
+
+- Bókin er smíðuð bæði sem vefur og PDF (`_book/saga-selsvallar.pdf`, niðurhalshnappur í valmynd).
+- **`.qmd`-skrárnar eru eina frumritið.** PDF er alltaf smíðað úr þeim upp á nýtt. Aldrei breyta
+  eða geyma `.tex`-skrár; þær eru bráðabirgðaskrár og git hunsar þær.
+- PDF notar LaTeX (TinyTeX: `quarto install tinytex` á tölvunni, `tinytex: true` í `publish.yml`).
+- Það sem virkar bara á vef (kort, gagnvirk tímalína) þarf varaleið í PDF, t.d. texta eða töflu.
+  `_lua/pdf.lua` lætur `::: {.text-end}` (hægrijafnað) virka líka í PDF.
+- Myndir án skráarendingar velja sjálfar: SVG á vef, PNG í PDF.
 
 ## Samskipti við notandann
 
@@ -88,7 +99,8 @@ og litblinda. Ekki bæta við fjórða flokki; sameinaðu frekar. Litur fylgir f
 
 ## Forskoða bókina
 
-- Keyrðu `quarto preview --port 4200 --no-browser`. Bókin er þá á http://localhost:4200/
+- Keyrðu `quarto preview --port 4200 --no-browser --to html`. Bókin er þá á http://localhost:4200/
+  (`--to html` sleppir PDF svo forskoðunin sé hröð; `quarto render` smíðar hvort tveggja.)
 - Athugaðu fyrst hvort þjónn sé þegar í gangi og stöðvaðu hann ef svo er.
 - Ekki stöðva þjóninn í miðri keyrslu, það getur skemmt skyndiminni Quarto.
 - **Stöðvaðu þjóninn áður en mörgum skrám er breytt í einu** (t.d. með skriftu) og ræstu hann

@@ -1,7 +1,7 @@
 # Saga Selsvallar
 
 Bókin er skrifuð í [Quarto](https://quarto.org) og birtist sjálfkrafa á
-**https://tungufoss.github.io/fludir-golf/** í hvert sinn sem breyting er sett á `main`.
+**https://arnitom.github.io/fludir-golf/** í hvert sinn sem breyting er sett á `main`.
 
 - **Höfundur texta:** Árni Tómasson
 - **Tæknileg uppsetning:** Helga Ingimundardóttir ([@tungufoss](https://github.com/tungufoss))
@@ -57,5 +57,11 @@ Litlar töflur sem breytast sjaldan eru skrifaðar beint í textann.
 ## Skoða bókina á eigin tölvu
 
 ```
-quarto preview
+quarto preview --to html
 ```
+
+## PDF-útgáfa
+
+Bókin er líka smíðuð sem PDF, og lesendur geta sótt hana með hnappi efst í valmyndinni.
+PDF-ið er alltaf búið til úr sömu `.qmd`-skrám og vefurinn, svo það þarf ekki að viðhalda því sérstaklega.
+Til að smíða bæði vef og PDF á eigin tölvu þarf LaTeX einu sinni: `quarto install tinytex`, svo `quarto render`.

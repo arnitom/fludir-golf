@@ -7,9 +7,12 @@ lang: is
 shortcodes:
   - _lua/gogn.lua
 
+filters:
+  - _lua/pdf.lua
+
 book:
   title: "Saga Selsvallar"
-  subtitle: "Frá upphafi til dagsins í dag"
+  subtitle: "Frá upphafi til 2025"
   author: "Árni Tómasson"
   date: today
   date-format: "D. MMMM YYYY"
@@ -17,7 +20,9 @@ book:
   sidebar:
     logo: myndir/merki/logo.png
     logo-alt: "Merki Golfklúbbsins Flúða"
-  repo-url: https://github.com/tungufoss/fludir-golf
+  output-file: saga-selsvallar
+  downloads: [pdf]
+  repo-url: https://github.com/arnitom/fludir-golf
   repo-actions: [edit, issue]
   chapters:
     - index.qmd
@@ -44,3 +49,9 @@ format:
       - gf.scss   # litir úr merkinu og stærra letur
     toc-title: "Efnisyfirlit"
     title-prefix: ""
+    default-image-extension: svg
+  pdf:
+    documentclass: scrbook
+    classoption: [oneside, open=any]   # lesið á skjá: engar auðar síður
+    papersize: a4
+    default-image-extension: png

@@ -150,13 +150,18 @@ return {
     end
     -- Í PDF þurfa dálkar breidd svo langur texti brotni í línur.
     if quarto.doc.is_format("pdf") then
+      -- Breidd eftir lengsta texta (mest 40 stafir), en aldrei mjórri en
+      -- lengsta orðið í dálkinum, svo orð skiptist ekki milli lína.
+      local function stafir(s) return utf8.len(s or "") or #(s or "") end
       local lengd, samtals = {}, 0
       for d = 1, #haus do
-        lengd[d] = utf8.len(haus[d]) or #haus[d]
+        local lengst, ord = stafir(haus[d]), 0
         for _, rod in ipairs(radir) do
-          lengd[d] = math.max(lengd[d], utf8.len(rod[d] or "") or 0)
+          lengst = math.max(lengst, stafir(rod[d]))
+          for w in (rod[d] or ""):gmatch("%S+") do ord = math.max(ord, stafir(w)) end
         end
-        lengd[d] = math.max(lengd[d], 4)
+        for w in haus[d]:gmatch("%S+") do ord = math.max(ord, stafir(w)) end
+        lengd[d] = math.max(ord + 2, math.min(lengst, 40))
         samtals = samtals + lengd[d]
       end
       for d = 1, #haus do
